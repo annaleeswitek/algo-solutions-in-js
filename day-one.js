@@ -2,3 +2,4 @@
 // For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 = 17
 // BONUS: Can you do this in one pass? 
 
+console.log('hi')

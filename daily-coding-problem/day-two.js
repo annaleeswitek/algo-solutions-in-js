@@ -19,10 +19,11 @@ const runningProduct = (arr) => {
     return result;
 }
 
-console.log(runningProduct(array)) // logs [120, 60, 40, 30, 24]
+// console.log(runningProduct(array)) // logs [120, 60, 40, 30, 24]
 
 // Tricky things I encountered: only thing is you need to make a copy of the array before splicing, not just 
 // adding a reference to the original array. 
 // const arrCopy = arr; <-- this lead to to the original array being mutated by the splice method. 
 // const arryCop = [...arr] <-- this makes a true copy of the array with no reference to the original
 // so you can splice away. 
+

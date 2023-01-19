@@ -31,7 +31,7 @@ const twoSumLinear = (nums, k) => {
 
     return false;
 
-    // awkward version I tried with map - for loop is needed to make this truely linear complexity
+    // awkward version I tried with map - for loop is needed to make this linear complexity
 
     // const result = nums.map(num => {
     //     if (seen.has(k-num)) {

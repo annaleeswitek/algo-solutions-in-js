@@ -5,7 +5,7 @@
 const nums = [1, 5, 10, 7];
 const k = 17; 
 
-const twoSumBruteForce = (nums, k) => {
+const twoSumBruteForceBloop = (nums, k) => {
     
     for (let i = 0; i < nums.length; i++) {
         console.log('nums[i]', nums[i])

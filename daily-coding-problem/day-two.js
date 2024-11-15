@@ -7,7 +7,7 @@
 
 const array = [1, 2, 3, 4, 5]
 
-const runningProduct = (arr) => {
+const runningProductBloop = (arr) => {
     let result = [];
 
     for (let i = 0; i < arr.length; i++) {
